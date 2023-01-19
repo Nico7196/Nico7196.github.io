@@ -1,0 +1,27 @@
+nav{
+    background-color: rgba(75, 191, 226, 0.582);
+    font-size: $fontMd;
+    padding: 1rem 2rem;
+    position: static;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    ul{
+        display: inline-block;
+        li{
+            display: inline-block; 
+            list-style: none;
+            a{
+                display: inline-block; 
+                list-style: none;
+                &:hover{
+                    color: $blanco;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

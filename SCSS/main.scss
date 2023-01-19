@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+*html{
+    font-size: 62.5%;
+    height: 100%;
+}
+@import "_vars";
+@import "commons";
+@import "nav";
+@import "imagenes";
+@import "form"

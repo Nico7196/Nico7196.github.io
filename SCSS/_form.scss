@@ -1,0 +1,78 @@
+form{
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgb(0 0 0 /.5);
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    box-sizing: border-box;
+    max-width: 400px;
+    background-color: rgba(252, 252, 252, 0.432);
+    margin: $fontXL auto;
+    overflow-y: auto;
+    width: 80%;
+    padding: 3rem 3rem 3rem 3rem;
+    font-size:large
+}
+.wrap{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(rgb(0 0 0 /.7),transparent), url(../img/headers/header.jpg);
+    background-size: cover;
+    background-position: center;    
+}
+.wrap-texto{
+    width: 50%;
+}
+.fondo-contacto{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-image:  url(../img/headers/Contacto1.webp);
+    background-size: cover;
+    background-position: center; 
+}
+.form_container{
+    margin-top: 3rem;
+    display: grid;
+    gap: $fontMd;
+}
+
+.form_group{
+    position: relative;
+    --color: rgb(148, 148, 148);
+}
+.form_input{
+    width: 100%;
+    background: none;
+    font-size: 2rem;
+    padding: 1rem 1rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+    color: var(--color);
+    font-family: 'Roboto', sans-serif;
+}
+.form_label{
+    color: var(--color);
+    cursor: pointer;
+}
+.boton{
+    margin: 3px;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    color: rgb(18, 39, 32);
+    background: linear-gradient(to center, $colorBoton, rgb(160, 248, 219));
+}
+.boton:hover{
+    background: linear-gradient(to top, $colorBoton, rgb(18, 148, 105));
+    transition: all 2s;
+    cursor: pointer;
+}
