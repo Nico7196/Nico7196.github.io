@@ -12,6 +12,20 @@ h2{
 #color{
     color: $blanco;
 }
+.wrap{
+    width: 99vw;
+    height: 99vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(rgb(0 0 0 /.7),transparent), url(../img/headers/header.jpg);
+    background-size: cover;
+    background-position: center;    
+}
+.wrap-texto{
+    width: 50vw;
+    display: flex;
+}
 p{
     font-family: 'Roboto', sans-serif;
     font-size: $fontMd;
@@ -73,20 +87,8 @@ footer{
     width: 64rem;
     height: 48rem;
 }
-#experiencia{
-    justify-content: space-around;
-    display: flex
-}
 .flex-direction{
     flex-direction: row-reverse;
-}
-#nosotros{
-    align-items: center;
-    justify-content: space-around;
-    display: flex;
-    flex-flow: reverse;
-    width: auto;
-    margin: 3% 10% 3% 10% ;
 }
 #contacto{
     flex-direction: column;
@@ -122,20 +124,18 @@ footer{
 .grid_container1{
     display: flex;
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
-    grid-auto-rows: minmax(280px,auto);
+    grid-template-columns: repeat(2,1fr);
     gap: 25px;
     padding: 25px;
     grid-auto-flow: dense ;
 }
 .grid_item1{
     display: flex;
-    width: 100%;
-    height: 100%;
+    width: 25vw;
+    height: auto;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    transition: transform 0.3s ease-in-out;
     background-size: cover;
     background-position: no-repeat;
     border: solid 1px rgb(255 255 255);
