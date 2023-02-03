@@ -52,7 +52,6 @@ p {
   padding: 2rem 2rem;
   background-color: rgb(247, 238, 226);
   border-radius: 10px;
-  width: 20%;
   box-sizing: border-box;
   color: rgb(8, 31, 32);
 }
@@ -116,7 +115,6 @@ footer a {
 }
 
 .dimen-video {
-  width: 64rem;
   height: 48rem;
 }
 
@@ -157,28 +155,6 @@ footer a {
   filter: opacity(0.94);
   transform: scale(1.02);
 }
-
-.grid_container1 {
-  display: flex;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 25px;
-  padding: 25px;
-  grid-auto-flow: dense;
-}
-
-.grid_item1 {
-  display: flex;
-  width: 25vw;
-  height: auto;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px;
-  background-size: cover;
-  background-position: no-repeat;
-  border: solid 1px rgb(255, 255, 255);
-}
-
 nav {
   background-color: rgba(75, 191, 226, 0.582);
   font-size: 2rem;
@@ -279,11 +255,4 @@ form {
   cursor: pointer;
 }
 
-@media (max-width: 900px) {
-  h1 {
-    font-size: 2rem;
-  }
-  h2 {
-    font-size: 1rem;
-  }
-}/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
