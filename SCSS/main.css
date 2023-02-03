@@ -4,9 +4,17 @@
   height: 100%;
 }
 
+@media (max-width: 900px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+}
 h1 {
   color: rgb(22, 9, 9);
-  font-size: 4rem;
+  font-size: 3rem;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -20,6 +28,22 @@ h2 {
 
 #color {
   color: rgb(255, 255, 255);
+}
+
+.wrap {
+  width: 98, 5vw;
+  height: 99vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), transparent), url(../img/headers/header.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.wrap-texto {
+  width: 50vw;
+  display: flex;
 }
 
 p {
@@ -74,7 +98,7 @@ footer a {
 }
 
 .pie_icon--sm {
-  width: 4rem;
+  width: 3rem;
 }
 
 .header_index {
@@ -96,22 +120,8 @@ footer a {
   height: 48rem;
 }
 
-#experiencia {
-  justify-content: space-around;
-  display: flex;
-}
-
 .flex-direction {
   flex-direction: row-reverse;
-}
-
-#nosotros {
-  align-items: center;
-  justify-content: space-around;
-  display: flex;
-  flex-flow: reverse;
-  width: auto;
-  margin: 3% 10% 3% 10%;
 }
 
 #contacto {
@@ -206,26 +216,11 @@ form {
   box-sizing: border-box;
   max-width: 400px;
   background-color: rgba(252, 252, 252, 0.432);
-  margin: 4rem auto;
+  margin: 3rem auto;
   overflow-y: auto;
   width: 80%;
   padding: 3rem 3rem 3rem 3rem;
   font-size: large;
-}
-
-.wrap {
-  width: auto;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), transparent), url(../img/headers/header.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
-.wrap-texto {
-  width: 50%;
 }
 
 .fondo-contacto {
@@ -282,4 +277,13 @@ form {
   background: linear-gradient(to top, rgb(127, 255, 212), rgb(18, 148, 105));
   transition: all 2s;
   cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
 }/*# sourceMappingURL=main.css.map */

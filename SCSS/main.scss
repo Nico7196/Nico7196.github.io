@@ -3,7 +3,15 @@
     font-size: 62.5%;
     height: 100%;
 }
+@media (max-width:900px) {
+    h1{
+        font-size: $fontMd;
+    }
+    h3{
+        font-size: $fontSm;
+    }
+}
 @import "_vars";
 @import "commons";
 @import "nav";
-@import "form"
+@import "form";

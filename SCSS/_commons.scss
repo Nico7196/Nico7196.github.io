@@ -13,7 +13,7 @@ h2{
     color: $blanco;
 }
 .wrap{
-    width: 99vw;
+    width: 98,5vw;
     height: 99vh;
     display: flex;
     align-items: center;
@@ -28,7 +28,7 @@ h2{
 }
 p{
     font-family: 'Roboto', sans-serif;
-    font-size: $fontMd;
+    font-size: $fontSm;
     padding: 2rem 2rem;
     background-color: rgb(247, 238, 226);
     border-radius: 10px;
@@ -121,22 +121,19 @@ footer{
     filter: opacity(0.94);
     transform: scale(1.02);
 }
+
 .grid_container1{
-    display: flex;
+    @media (max-width:900px) {
+        grid-template-columns: 1fr;
+    }
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 25px;
-    padding: 25px;
-    grid-auto-flow: dense ;
+    grid-template-columns: 2fr;
 }
 .grid_item1{
-    display: flex;
-    width: 25vw;
-    height: auto;
+    width: 99%;
+    height: 100%;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
-    background-size: cover;
-    background-position: no-repeat;
-    border: solid 1px rgb(255 255 255);
+    border-radius: 2px;
+    border: solid 1px;
 }

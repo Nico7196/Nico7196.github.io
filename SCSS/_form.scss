@@ -5,13 +5,13 @@ form{
     font-family: Arial, Helvetica, sans-serif;
     justify-content: space-between;
     box-sizing: border-box;
-    max-width: 400px;
-    background-color: rgba(252, 252, 252, 0.432);
+    max-width: 700px;
+    background-color: rgba(252, 252, 252, 0.322);
     margin: $fontXL auto;
     overflow-y: auto;
-    width: 80%;
+    width: 99%;
     padding: 3rem 3rem 3rem 3rem;
-    font-size:large
+    font-size:$fontSm
 }
 .fondo-contacto{
     width: auto;
@@ -25,12 +25,12 @@ form{
 .form_container{
     margin-top: 3rem;
     display: grid;
-    gap: $fontMd;
+    gap: $fontMd;   
 }
 
 .form_group{
     position: relative;
-    --color: rgb(148, 148, 148);
+    --color: rgba(148, 148, 148, 0.562);
 }
 .form_input{
     width: 100%;
